@@ -1,0 +1,7 @@
+Build.PL
+ChangeLog
+lib/Bundle/PerlFormance.pm
+MANIFEST			This list of files
+README
+t/basic.t
+META.yml
