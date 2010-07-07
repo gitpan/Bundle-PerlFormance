@@ -1,6 +1,6 @@
 package Bundle::PerlFormance;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 1;
 
@@ -13,13 +13,13 @@ headers other than all uppercase.
 
 =head1 NAME
 
-Bundle::PerlFormance - Bundle for al things needed by Benchmark::Perl::Formance
+Bundle::PerlFormance - Bundle for all things needed by Benchmark::Perl::Formance
 
 =end comment
 
 =head1 Name
 
-Bundle::PerlFormance - Bundle for al things needed by Benchmark::Perl::Formance
+Bundle::PerlFormance - Bundle for all things needed by Benchmark::Perl::Formance
 
 =head1 Synopsis
 
@@ -51,6 +51,8 @@ NetAddr::IP
 HTML::Parser
 
 Mail::SpamAssassin
+
+MooseX::Declare
 
 Moose
 
@@ -99,6 +101,12 @@ Text::Balanced
 YAML::XS
 
 Encode
+
+Data::DPath
+
+Devel::Size
+
+Clone
 
 =head1 Author
 
