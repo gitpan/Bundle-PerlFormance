@@ -1,6 +1,6 @@
 package Bundle::PerlFormance;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 1;
 
@@ -13,7 +13,7 @@ headers other than all uppercase.
 
 =head1 NAME
 
-Bundle::PerlFormance - Bundle for all things needed by Benchmark::Perl::Formance
+Bundle::PerlFormance - PerlFormance - Bundle for max dependencies
 
 =end comment
 
@@ -36,7 +36,25 @@ dependencies.
 
 =head1 CONTENTS
 
+Digest::SHA1
+
+DB_File
+
+Mail::SPF
+
+Mail::DKIM
+
+IP::Country
+
+Net::Ident
+
+IO::Socket::INET6
+
+Encode::Detect
+
 Benchmark::Perl::Formance
+
+Tapper::TestSuite::Benchmark::Perl::Formance
 
 forks
 
@@ -60,6 +78,8 @@ Mouse
 
 POSIX::Regex
 
+ExtUtils::CppGuess
+
 re::engine::Lua
 
 re::engine::LPEG
@@ -71,8 +91,6 @@ re::engine::Oniguruma
 re::engine::RE2
 
 Math::GMP
-
-Test::Aggregate::Nested
 
 DateTime::Calendar::Mayan
 
